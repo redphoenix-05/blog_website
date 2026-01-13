@@ -1,0 +1,39 @@
+import React from 'react'
+import Image from 'next/image'
+import { assets } from '@/asset/assets'
+
+const Footer = () => {
+  return (
+    <div className='flex justify-around flex-col gap-2 sm:ap-0 sm:flex-row bg-black py-5 items-center'>
+        <Image
+            src={assets.logo_light}
+            alt="Logo"
+            width={120}
+            className='w-32.5 sm:w-auto'
+        />
+        <p className='text-sm text-white'>© 2024 Blog Website. All rights reserved.</p>
+        <div className='flex'>
+            <Image
+                src={assets.facebook_icon}
+                alt="Facebook"
+                width={40}
+                height={40}
+            />
+            <Image
+                src={assets.twitter_icon}
+                alt="Twitter"
+                width={40}
+                height={40}
+            />
+            <Image
+                src={assets.googleplus_icon}
+                alt="Google Plus"
+                width={40}
+                height={40}
+            />
+        </div>
+    </div>
+  )
+}
+
+export default Footer

@@ -27,7 +27,7 @@ const Header = () => {
             <p className='mt-10 max-w-185 m-auto text-xs sm:text-base'>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad sapiente est omnis alias. Id, laboriosam maiores pariatur eligendi omnis quas. Voluptatum eaque consectetur tenetur porro perferendis praesentium facilis quasi dolores!
             </p>
-            <form className='flex justify-between max-w-125 scale-75 sm:scale-100 mx-auto mt-auto border border-black shadow-[-7px_7px_0px_#000000]'>
+            <form className='mt-10 flex justify-between max-w-125 scale-75 sm:scale-100 mx-auto border border-black shadow-[-7px_7px_0px_#000000]'>
                 <input 
                     type="email" 
                     placeholder='Enter your email address' 
