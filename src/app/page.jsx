@@ -1,7 +1,9 @@
-export default function Home(){
+import React from 'react'
+
+export default function page() {
   return (
-    <main>
-      <h1>Welcome to the Home Page</h1>
-    </main>
+    <div>
+      Home
+    </div>
   )
 }
