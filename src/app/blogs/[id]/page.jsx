@@ -1,4 +1,5 @@
 "use client"
+import Footer from '@/app/component/Footer';
 import { assets, blog_data } from '@/asset/assets';
 import Image from 'next/image'
 import React, { useState, useEffect  } from 'react'
@@ -121,6 +122,7 @@ const Page = ({params}) => {
             </div>
         </div>
     </div>
+    <Footer />
   </>:<div className='justify-center items-center'>Loading...</div>
   )
 }
